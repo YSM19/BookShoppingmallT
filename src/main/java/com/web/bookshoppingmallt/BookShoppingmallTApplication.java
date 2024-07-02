@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan()
+//@ComponentScan()
 public class BookShoppingmallTApplication {
 
     public static void main(String[] args) {
