@@ -14,8 +14,12 @@ spring:
         ddl-auto: create
         format_sql: true
 
+  jwt:
+    secret: ThisIsA_SecretKeyForJwtExampleThisIsA_SecretKeyForJwtExampleThisIsA_SecretKeyForJwtExampleThisIsA_SecretKeyForJwtExample
+
 logging:
   level:
     org.hibernate: info
     org.hibernate.SQL: debug
     org.hibernate.type: trace
+
